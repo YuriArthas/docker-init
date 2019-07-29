@@ -1,4 +1,4 @@
-FROM ccr.ccs.tencentyun.com/yuri_namespace/my-vpn
+FROM ccr.ccs.tencentyun.com/yuri_namespace/my-python:master
 
 RUN apt install git -y
 pip3 install git+https://github.com/shadowsocks/shadowsocks.git@master
